@@ -267,8 +267,12 @@ input[type="checkbox"] {
   }
   
   .item:hover .imagen-carrito i {
+    transition: transform 1s;
     transform: rotate(-90deg); /* Gira 90 grados al pasar el ratón por encima */
     transform-origin: center;
+    
+
+       
   }
   
   .item:hover {
